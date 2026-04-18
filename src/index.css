@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FDFCF8;
+  --color-sage-dark: #5A6A5B;
+  --color-sage-light: #8E9B8E;
+  --color-earth-brown: #A67C52;
+  --color-sand: #D9B99B;
+  --color-sand-muted: rgba(217, 185, 155, 0.3);
+  --color-text-main: #3C403D;
+  --color-text-muted: #6B7280;
+  
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-text-main font-serif;
+  }
+}
